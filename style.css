@@ -1,0 +1,71 @@
+body { 
+	background: rgb(230, 230, 230);
+	font-family: 'Shantell Sans', cursive;
+	color: black;
+	font-size : 16px;
+	line-height: 25px;
+	text-align: center;
+	}
+
+h1, h2, h3 {
+	font-weight: bold;
+	font-size : 21px;
+	letter-spacing: 2px;
+	line-height: 18px;
+	color: rgb(25,25,25)
+	}
+
+a  {	
+	text-decoration: none;
+	color: black;
+	}
+
+a:hover	{
+	color: dark;
+	font-size : 13px;
+	}
+
+
+
+div {
+	background: white;
+	padding: 30px ;
+	border-radius: 4px ;
+	box-shadow:0, 15px, 35px, rgba(50,50,93,.1);
+	width: 30%;
+	margin: 0 auto;
+
+}
+#photo {border-radius: 50%;
+		width:500px;
+		width:35%;
+}
+#box_three_quarters {
+	width: 50%;
+}
+.blue_card{
+	background: rgba(0,222,87,0.7);
+	width: 19%;
+	padding: 3px ;
+	font-size: 13px;
+}
+.blue_card:hover{
+	font-size: 13px;
+	background: rgba(0,256,87,1);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display : inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 25px ;
+	color: black ;
+}
+.list-inline i:hover{
+	color: darkgrey ;
+}
